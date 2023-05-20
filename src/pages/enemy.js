@@ -21,7 +21,7 @@ export const Enemy = () => {
         <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gq.com%2Fstory%2Fgeorge-takei-american-concentration-camps&psig=AOvVaw2ZVTwZBVlmxDcq_xHsX6iO&ust=1684526353368000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCICYu-nT__4CFQAAAAAdAAAAABA-" class='imgcite'>
           Background Link
         </a>
-        <h1 id='titl'>They Called Us Enemy</h1>
+        <h1 id='titl'>Oh My! The Power of Activism!</h1>
 
         <div class='article'>
           <p>

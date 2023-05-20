@@ -19,7 +19,7 @@ export const Sylviaki = () => {
         backgroundBlendMode: 'multiply'
       }}>
         <img class='coverimg' src={sylviakiCover} alt="Sylvia & Aki Cover" />
-        <h1 id='titl'>Sylvia & Aki</h1>
+        <h1 id='titl'>Sylvia & Aki: Friendship Through the Differences</h1>
 
         <div class='article'>
           <p>
