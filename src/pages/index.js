@@ -45,7 +45,7 @@ export const Home = () => {
           <img class='bookcover' src={sylviaCover} alt="Sylvia & Aki Cover" />
           <div class='bookdesc'>
             <p class='desc'> Sylvia & Aki is a book about two girls, Sylvia and Aki, and their friendship. Sylvia is a Mexican American girl that struggles with racism and school segregation and fights for her rights. Aki is about a girl who’s family gets sent to the incarceration camps. </p>
-            <a class='desc' href='/baseballsavedus'>Link to article</a>
+            <a class='desc' href='/sylvia&aki'>Link to article</a>
           </div>
         </div>
         <h2 class='header'>High-Grade Level</h2>
@@ -53,7 +53,7 @@ export const Home = () => {
           <img class='bookcover' src={calledusCover} alt="They Called Us Enemy Cover" />
           <div class='bookdesc'>
             <p class='desc'> They Called Us Enemy is a graphic novel of George Takei’s story of how he went through the incarceration camps at a young age and how their family and the people around them dealt through the events. </p>
-            <a class='desc' href='/baseballsavedus'>Link to article</a>
+            <a class='desc' href='/theycalledusenemy'>Link to article</a>
           </div>
         </div>
       </div>
