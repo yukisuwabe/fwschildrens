@@ -4,6 +4,7 @@ import backgroundImg from '../files/sylviaandaki.001.jpeg';
 import sylviakiCover from '../files/sylviaandakicover.jpeg';
 import japaneseDisc from '../files/japanesedisc.jpeg';
 import mexicanDisc from '../files/mexicandisc.jpeg';
+import Footer from '../components/footer';
 
 export const Sylviaki = () => {
   return (
@@ -55,6 +56,7 @@ export const Sylviaki = () => {
             </p>
           </div>
         </div>
+        <Footer />
       </div>
     </body>
   )

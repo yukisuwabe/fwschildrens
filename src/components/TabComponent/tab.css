@@ -1,0 +1,65 @@
+.Tabs {
+  width: 80%;
+  height: auto;
+  min-height: 400px;
+  /* background: #053742; */
+  margin: 3.5rem auto 1.5rem;
+  color: #E8F0F2;
+  border-radius: 2rem;
+  padding-bottom: 10vh;
+
+  @media (max-width: 769px) {
+    padding: 2rem 0;
+  }
+
+}
+
+/* Tab Navigation */
+ul.nav {
+  width: 70%;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #bfbfbf;
+
+  padding-left: 0px;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+ul.nav li {
+  width: 50%;
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.7s;
+  border-radius: 0.3rem;
+}
+
+/* ul.nav li:first-child {
+  border-radius: 0.3rem;
+  border-top-left-radius: 0.3rem;
+} */
+
+/* ul.nav li:last-child {
+  border-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  height: 100%;
+} */
+
+ul.nav li:hover {
+  background: rgba(196, 196, 196, 0.15);
+}
+
+ul.nav li.active {
+  font-weight: bolder;
+  background: black;
+}
+
+.outlet {
+  text-align: center;
+}

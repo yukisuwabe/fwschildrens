@@ -3,6 +3,7 @@ import './article.css';
 import baseballimg from '../files/baseballsaved.jpeg';
 import baseballTitle from '../files/baseballtitle.jpeg';
 import baseballBackground from '../files/baseballreal.jpeg';
+import Footer from '../components/footer';
 
 export const Baseball = () => {
   return (
@@ -13,7 +14,7 @@ export const Baseball = () => {
         height: '62.5vh',
         width: '100vw',
         backgroundRepeat: 'no-repeat',
-        backgroundPositionY: '-350px',
+        backgroundPositionY: 'center',
         backgroundColor: 'grey',
         backgroundBlendMode: 'multiply'
       }}>
@@ -44,7 +45,7 @@ export const Baseball = () => {
             culture as well as give the parents a starting point to ease the kids
             into the history of the interment camps. <br /> <br />
           </p>
-          <img src={baseballBackground} alt="People Watching Baseball In Camps" />
+          <img class='exampleimg' src={baseballBackground} alt="People Watching Baseball In Camps" />
           <p>
             Although Baseball Saved Us does shed its light on the camps and the life
             surrounding them, at its core, it is not about that. The protagonist,
@@ -129,6 +130,7 @@ export const Baseball = () => {
           </div>
 
         </div>
+        <Footer />
       </div>
     </body>
   )

@@ -3,6 +3,7 @@ import './article.css';
 import question from '../files/questionnaire.jpeg';
 import CalledUsCover from '../files/calleduscover.jpg';
 import takeiFamily from '../files/George-Takei-family-gq.webp';
+import Footer from '../components/footer';
 
 export const Enemy = () => {
   return (
@@ -62,6 +63,7 @@ export const Enemy = () => {
             </p>
           </div>
         </div>
+        <Footer />
       </div>
     </body>
   )

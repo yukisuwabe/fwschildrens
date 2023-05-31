@@ -38,10 +38,9 @@ body {
   display: flex;
   justify-content: center;
   gap: 10px;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 5vw;
   align-items: center;
-  padding-bottom: 10vh;
+  padding-bottom: 20vh;
 }
 
 .bookcover {
